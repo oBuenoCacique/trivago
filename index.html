@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Acomoda - Site Simples</title>
+    <title>Acomoda - Encontre sua hospedagem ideal</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -12,8 +12,8 @@
         <nav>
             <ul>
                 <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#servicos">Serviços</a></li>
-                <li><a href="#tabela">Tabela</a></li>
+                <li><a href="#ofertas">Ofertas</a></li>
+                <li><a href="#preços">Preços</a></li>
                 <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
@@ -21,30 +21,37 @@
 
     <section id="sobre">
         <h2>Sobre Nós</h2>
-        <p>Bem-vindo ao Acomoda, o lugar ideal para encontrar acomodações confortáveis e acessíveis. Oferecemos uma variedade de opções para atender às suas necessidades de hospedagem.</p>
-        <img src="https://via.placeholder.com/400x200" alt="Imagem de hotel">
+        <p>Descubra o Acomoda, sua plataforma confiável para encontrar acomodações excepcionais. Oferecemos uma ampla gama de opções, desde hotéis urbanos modernos até retiros tranquilos no campo, garantindo conforto, acessibilidade e experiências memoráveis para todos os tipos de viajantes.</p>
+        <img src="pictures/hotel.png" alt="Imagem de hotel" width="70%" height="70%"> 
     </section>
 
-    <section id="servicos">
-        <h2>Nossos Serviços</h2>
+    <section id="ofertas">
+        <h2>Ofertas de Hotel Imperdíveis</h2>
         <div class="cards">
             <div class="card">
-                <h3>Hotel Urbano</h3>
-                <p>Acomodações modernas na cidade.</p>
+                <img src="https://imgcy.trivago.com/c_fill,d_dummy.jpeg,e_sharpen:60,f_auto,h_267,q_40,w_400/hotelier-images/d3/18/8c403d63c1f6c48a5dd21951ea9480aa7f6c7e124fdafe55fcf7920db136.jpeg" alt="Infinity Copacabana" width="100%" height="150px">
+                <h3>Infinity Copacabana</h3>
+                <p>Rio de Janeiro, Brasil - Hotel com vista para a praia, café da manhã incluído.</p>
+                <p class="price">A partir de R$ 383/noite</p>
             </div>
             <div class="card">
-                <h3>Casa de Campo</h3>
-                <p>Retiro tranquilo no campo.</p>
+                <img src="https://imgcy.trivago.com/c_fill,d_dummy.jpeg,e_sharpen:60,f_auto,h_267,q_40,w_400/hotelier-images/8e/7a/2b83e2caa8a0fec2a1b0e2ded7c91c7ab4f3a06a353f8275eecd43b2c5a8.jpeg" alt="Pullman Sao Paulo Ibirapuera" width="100%" height="150px">
+                <h3>Pullman Sao Paulo Ibirapuera</h3>
+                <p>São Paulo, Brasil - Hotel de luxo com comodidades modernas.</p>
+                <p class="price">A partir de R$ 567/noite</p>
             </div>
             <div class="card">
-                <h3>Apartamento</h3>
-                <p>Espaçosos apartamentos para famílias.</p>
+                <img src="https://imgcy.trivago.com/c_fill,d_dummy.jpeg,e_sharpen:60,f_auto,h_267,q_40,w_400/hotelier-images/19/89/48c94fbd36496296ece8628f99a16b03ac1045bb1ca7813fe66a06178350.jpeg" alt="Hotel Ritta Höppner" width="100%" height="150px">
+                <h3>Hotel Ritta Höppner</h3>
+                <p>Gramado, Brasil - Hotel charmoso com cancelamento gratuito.</p>
+                <p class="price">A partir de R$ 588/noite</p>
             </div>
         </div>
     </section>
 
-    <section id="tabela">
-        <h2>Preços</h2>
+    <section id="preços">
+        <h2>Planos e Preços</h2>
+        <p>Escolha o plano que melhor se adapta às suas necessidades. Todos os preços incluem taxas e garantem qualidade superior.</p>
         <table>
             <thead>
                 <tr>
@@ -55,26 +62,41 @@
             </thead>
             <tbody>
                 <tr>
-                    <td>Hotel Urbano</td>
-                    <td>R$ 150/noite</td>
+                    <td>Infinity Copacabana</td>
+                    <td>R$ 383/noite</td>
                     <td>1-7 dias</td>
                 </tr>
                 <tr>
-                    <td>Casa de Campo</td>
-                    <td>R$ 200/noite</td>
+                    <td>Pullman Sao Paulo Ibirapuera</td>
+                    <td>R$ 567/noite</td>
                     <td>2-14 dias</td>
                 </tr>
                 <tr>
-                    <td>Apartamento</td>
-                    <td>R$ 120/noite</td>
+                    <td>Hotel Ritta Höppner</td>
+                    <td>R$ 588/noite</td>
                     <td>1-30 dias</td>
                 </tr>
             </tbody>
         </table>
     </section>
 
+    <section id="depoimentos">
+        <h2>O que nossos clientes dizem</h2>
+        <div class="testimonials">
+            <div class="testimonial">
+                <p>"Encontrei o hotel perfeito pelo melhor preço. Recomendo!"</p>
+                <cite>- João Silva</cite>
+            </div>
+            <div class="testimonial">
+                <p>"Fácil de usar e economizei muito na minha viagem."</p>
+                <cite>- Maria Oliveira</cite>
+            </div>
+        </div>
+    </section>
+
     <section id="contato">
-        <h2>Contato</h2>
+        <h2>Entre em Contato</h2>
+        <p>Tem dúvidas ou quer reservar? Envie-nos uma mensagem e responderemos em breve!</p>
         <form action="#" method="post">
             <label for="nome">Nome:</label>
             <input type="text" id="nome" name="nome" required>
@@ -87,7 +109,14 @@
     </section>
 
     <footer>
-        <p>&copy; 2023 Acomoda. Todos os direitos reservados.</p>
+        <div class="footer-content">
+            <p>&copy; 2024 Acomoda. Todos os direitos reservados.</p>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#ofertas">Ofertas</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </div>
     </footer>
 </body>
 </html>
