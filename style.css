@@ -50,6 +50,7 @@ section {
 #sobre {
     background-color: #eef4ff;
     text-align: center;
+    font-size: 1.15rem;
 }
 
 .cards {
@@ -136,18 +137,17 @@ input, textarea {
     border: 1px solid #c8d6ff;
     border-radius: 6px;
 }
-
 button {
-    background-color: #0047ab;
-    color: #ffffff;
-    padding: 0.75rem 1.25rem;
-    border: none;
-    border-radius: 6px;
-    margin-top: 1rem;
-    cursor: pointer;
+    background-color: #e4002b;
+    color: white;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: 0.3s;
 }
 
-button:hover,
+button:hover {
+    background-color: #c20024;
+}
 button:focus {
     background-color: #003d8a;
 }
@@ -217,3 +217,4 @@ th {
     display: block;
     margin: 1rem auto;
 }
+
